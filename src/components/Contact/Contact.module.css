@@ -1,0 +1,30 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.number {
+  color: #555;
+}
+
+.button {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff4c4c;
+}
